@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 
     archivo = fopen("Datos.txt","r"); // Abrirlo en modo lectura 
     char unCaracter;
-    /**/
+    
     while (!feof(archivo)){ // Mecanismo parar barrer el contenido hasta llegar al final del archivo
         unCaracter = fgetc(archivo);
         putchar(unCaracter);
